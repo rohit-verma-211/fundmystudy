@@ -232,9 +232,9 @@ DELETE /api/admin/delete/:id
 
 B.Tech Electrical Engineering, Delhi Technological University (DTU)
 
-GitHub: https://github.com/yourusername
+GitHub: [https://github.com/rohit-verma-211](https://github.com/rohit-verma-211)
 
-LinkedIn: https://linkedin.com/in/yourprofile
+LinkedIn: [https://linkedin.com/in/rohit-verma-211rv/](https://www.linkedin.com/in/rohit-verma-211rv/)
 
 ---
 
