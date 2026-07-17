@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 'http://localhost:8001';
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 'https://fundmystudy-fcnk.onrender.com';
 
 export const api = axios.create({
   baseURL: `${BACKEND_URL}/api`,
