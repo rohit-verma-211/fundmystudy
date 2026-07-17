@@ -11,7 +11,8 @@ function issueToken(res, userId) {
   const token = jwt.sign({ sub: userId }, SECRET, { expiresIn: '30d' });
   res.cookie('access_token', token, {
     httpOnly: true,
-    sameSite: 'lax',
+    secure: true,
+    sameSite: 'None',
     maxAge: 30 * 24 * 60 * 60 * 1000,
   });
 }
