@@ -11,7 +11,7 @@ const app = express();
 const PORT = process.env.PORT || 8001;
 
 app.use(cors({
-  origin: process.env.CORS_ORIGIN || 'https://fundmystudy.vercel.app/',
+  origin: process.env.CORS_ORIGIN || 'https://fundmystudy.vercel.app',
   credentials: true,
 }));
 app.use(express.json());
